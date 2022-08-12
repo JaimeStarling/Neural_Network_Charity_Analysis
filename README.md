@@ -28,6 +28,10 @@ From Alphabet Soup’s business team, we received a [CSV]( https://github.com/Ja
 ![This is an image](https://github.com/JaimeStarling/Neural_Network_Charity_Analysis/blob/main/Images/Application%20DF.png)
 
 ### Compiling, Training, and Evaluating the Model
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+There were three attempts to achieve a target predictive accuracy higher than 75 percent. One model used hidden layers of 80 neurons and 30 neurons, and the other two models used hidden layers of 100 neurons, 50 neurons, and 20 neurons. Activation functions include *relu*, *sigmoid*, and *tahn*. The idea was to try different training to improve the accuracy of each model. Unfortunately, no model reached the desired 75 percent accuracy.
+
+## Summary
+
+The models, using a machine learning neural network, failed to reach the desired accuracy at three attempts, and would either require far more attempts to get closer to 75 percent or lower the desired accuracy, which is not recommended. There are different models to use with this same data, especially given the **IS_Successful** column, with a *Linear Regression Model* or a *Random Forest Classifier* that are simpler to run and may achieve the accuracy we need.
