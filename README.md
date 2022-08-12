@@ -21,6 +21,12 @@ From Alphabet Soup’s business team, we received a [CSV]( https://github.com/Ja
 ## Results
 
 ### Data Preprocessing
+- The **IS_SUCCESSFUL** column is considered the target as it is very clear, binary, and easy to understand.
+- We removed the **EIN** and **NAME** columns as they were unnecessary for the analysis being neither targets nor features.
+- The remaining columns are considered to be the features for our model.
 
 
 ### Compiling, Training, and Evaluating the Model
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Were you able to achieve the target model performance?
+What steps did you take to try and increase model performance?
