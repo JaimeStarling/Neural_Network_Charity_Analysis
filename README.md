@@ -18,3 +18,9 @@ From Alphabet Soup’s business team, we received a CSV containing more than 34,
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
 
+## Results
+
+### Data Preprocessing
+
+
+### Compiling, Training, and Evaluating the Model
