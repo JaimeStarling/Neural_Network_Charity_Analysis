@@ -24,7 +24,7 @@ From Alphabet Soup’s business team, we received a [CSV]( https://github.com/Ja
 - The **IS_SUCCESSFUL** column is considered the target as it is very clear, binary, and easy to understand.
 - We removed the **EIN** and **NAME** columns as they were unnecessary for the analysis being neither targets nor features.
 - The remaining columns are considered to be the features for our model.
-
+![This is an image](https://github.com/JaimeStarling/Neural_Network_Charity_Analysis/blob/main/Images/Application%20DF.png)
 
 ### Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
